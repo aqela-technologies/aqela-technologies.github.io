@@ -53,6 +53,24 @@ function Footer() {
                 <div className="text-gray-400 text-sm mr-4 pt-6">&copy; Aqela Technologies. All rights reserved.</div>
                 <button className="text-gray-400 text-sm mr-4 pt-1 block">Privacy Policy</button>
                 <button className="text-gray-400 text-sm mr-4 pt-1 block">Terms and Conditions</button>
+                <li className="mb-1">
+                    <a
+                      href="https://anpc.ro/ce-este-sal/"
+                      target="_blank"
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
+                      ANPC SAL
+                    </a>
+                  </li>
+                  <li className="mb-1">
+                    <a
+                      href="https://anpc.ro"
+                      target="_blank"
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
+                      ANPC
+                    </a>
+                  </li>
               </div>
               {/* 4th block */}
               {/* <div className="text-sm">

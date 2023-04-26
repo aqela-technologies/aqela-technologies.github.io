@@ -218,24 +218,6 @@ function FeaturesZigzag() {
                       e-mail: office@aqela.org
                     </a>
                   </li>
-                  <li className="mb-1">
-                    <a
-                      href="https://anpc.ro/ce-este-sal/"
-                      target="_blank"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      ANPC SAL
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a
-                      href="https://anpc.ro"
-                      target="_blank"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      ANPC
-                    </a>
-                  </li>
                 </ul>
                 </div>
               </div>
