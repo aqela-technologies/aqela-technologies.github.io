@@ -50,42 +50,9 @@ function Footer() {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1"> Contact Us</h6>
-                <ul>
-                  <li className="mb-1">
-                    <a href="tel:+40753125498" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
-                      Tel: +40 753125498
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a href="mailto:office@aqela.org" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
-                      e-mail: office@aqela.org
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a
-                      href="https://anpc.ro/ce-este-sal/"
-                      target="_blank"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      ANPC SAL
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a
-                      href="https://anpc.ro/ce-este-sal/"
-                      target="_blank"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      ANPC
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="text-sm">
-                <div className="text-gray-400 text-sm mr-4 pt-6">
-                  &copy; Aqela Technologies. All rights reserved.
-                </div>
+                <div className="text-gray-400 text-sm mr-4 pt-6">&copy; Aqela Technologies. All rights reserved.</div>
+                <button className="text-gray-400 text-sm mr-4 pt-1 block">Privacy Policy</button>
+                <button className="text-gray-400 text-sm mr-4 pt-1 block">Terms and Conditions</button>
               </div>
               {/* 4th block */}
               {/* <div className="text-sm">

@@ -46,13 +46,13 @@ function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
             <li>
-                <a
+                {/* <a
                   href="https://aqela.org/contamy-nation"
                   className="font-medium text-aqela-purple hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out flex-col pt-12"
                 >
                   <img className="w-24" src={Fish} alt="Contamy Nation Logo"/>
                   Contamy Nation
-                </a>
+                </a> */}
               </li>
               {/* <li>
                 <Link
@@ -104,12 +104,12 @@ function Header() {
               }
             >
               <ul className="bg-gray-800 px-4 py-2">
-                <li>
+                {/* <li>
                   <a href='https://aqela.org/contamy-nation' className="flex font-medium w-full text-aqela-purple hover:text-gray-200 py-2 justify-center items-center">
                   <img className="w-12 mr-4" src={Fish} alt="Contamy Nation Logo"/>
                     Contamy Nation
                   </a>
-                </li>
+                </li> */}
                 {/* <li>
                   <Link
                     to="/signin"
