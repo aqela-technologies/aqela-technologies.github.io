@@ -65,7 +65,7 @@ function HeroHome() {
           {/* Hero image */}
           <div>
             <div className="relative flex justify-center items-center flex-col" data-aos="fade-up" data-aos-delay="200">
-              <p className="text-3xl">Check out our project</p>
+              <p className="text-3xl">Check out our NFT project</p>
               <a
                   href="https://aqela.org/contamy-nation"
                   className="font-medium text-aqela-purple hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out flex-col pt-12"
