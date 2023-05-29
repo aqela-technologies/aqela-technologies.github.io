@@ -5,7 +5,13 @@ const nextConfig = {
     },
     typescript:{
         ignoreBuildErrors: true,
-    }
+    },
+    reactStrictMode: false,
+    swcMinify: true,
+    compiler: {
+        styledComponents: true
+    },
+    output: 'standalone',
 }
 
 module.exports = nextConfig
