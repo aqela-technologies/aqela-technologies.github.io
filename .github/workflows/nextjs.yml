@@ -28,6 +28,11 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_CANDY_MACHINE_ID: GQR444DK3xg4MjhZPqiwaGkY9kb6QQJg5FbDR9ZTdSqZ
+      NEXT_PUBLIC_RPC_HOST: https://solana-mainnet.g.alchemy.com/v2/J8GsqmgI11EZWDlFdGEKLTg2d-mYCRju/
+      NEXT_PUBLIC_SOLANA_NETWORK: mainnet-beta
+      SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
