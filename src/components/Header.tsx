@@ -55,7 +55,7 @@ export default function Header() {
                 <MenuItem>
                     <Link href={"/contamy-nation"} onClick={handleClose}>
                         <TextButton color="black">
-                            Contamy-Nation
+                            Contamy Nation
                         </TextButton>
                     </Link>
                 </MenuItem>

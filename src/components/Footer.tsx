@@ -51,8 +51,8 @@ export default function Footer() {
         <div className="flex flex-row mt-8 justify-between mx-16">
             <p className="text-primaryWhite">©Aqela Technologies. All rights reserved.</p>
             <div className="flex flex-row text-primaryWhite gap-6 mr-8">
-                <p>Terms and conditions</p>
-                <p>Privacy</p>
+                <Link href={"terms-and-conditions"}><p>Terms and conditions</p></Link>
+                <Link href={"/privacy-policy"}><p>Privacy</p></Link>
             </div>
         </div>
         <div className="bg-gradient-to-t from-primaryBlack to-transparent w-full h-1/3 absolute bottom-0 pointer-events-none"/>
