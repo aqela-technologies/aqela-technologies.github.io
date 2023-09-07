@@ -23,7 +23,6 @@ import {
 } from "./hooks/types";
 import Grid from "@material-ui/core/Grid";
 import {styleConstants} from "@/assets/constants/styleConstants";
-import {Visby} from "@/assets/fonts";
 
 const Header = styled.div`
   display: flex;
@@ -507,7 +506,7 @@ const MintZoneContent = (props: MintZoneContentProps) => {
                                         {candyMachineV3.items.remaining !== 0 && !candyMachineV3.status.minting && limit > 0 && (
                                             <Grid item xs={false} container justifyContent={"center"}>
                                                 <div className="hidden md:flex w-full justify-center">
-                                                    <Typography align={"center"} className={`text-primaryWhite ${Visby.className}`} style={{fontSize:22}}>Quantity (estimated total
+                                                    <Typography align={"center"} className={`text-primaryWhite font-visby`} style={{fontSize:22}}>Quantity (estimated total
                                                         price: {totalSolCost} SOL):
                                                     </Typography>
                                                 </div>

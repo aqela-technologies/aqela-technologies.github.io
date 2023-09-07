@@ -1,25 +1,28 @@
 import {useMemo} from "react";
-import Paolo from "@/assets/images/png/team/pal.png";
-import Feco from "@/assets/images/png/team/ferenc.png";
-import Matteo from "@/assets/images/png/team/mate.png";
+import Paul from "@/assets/images/png/team/pal.png";
+import Ferenc from "@/assets/images/png/team/ferenc.png";
+import Mate from "@/assets/images/png/team/mate.png";
 import WellOfCourseIKnowHimItsMe from "@/assets/images/png/team/tamas.png";
 import Image from "next/image";
-import {NewAlenia} from "@/assets/fonts";
 
 const teamMembers = [
     {
+        id: "pal",
         name: <>JUHASZ-BOYLAN<br/>PAL</>,
-        image: Paolo
+        image: Paul
     },
     {
+        id: "feri",
         name: <>DEMETER <br/> FERENC</>,
-        image: Feco
+        image: Ferenc
     },
     {
+        id: "mate",
         name: <>ANTAL <br/> MATE</>,
-        image: Matteo
+        image: Mate
     },
     {
+        id: "ravasz",
         name: <> RAVASZ <br/> TAMAS</>,
         image: WellOfCourseIKnowHimItsMe
     },
@@ -27,9 +30,9 @@ const teamMembers = [
 export default function TeamMembers() {
 
     const members = useMemo(() => {
-        return teamMembers.map((item) => <div key={item.name}>
+        return teamMembers.map((item) => <div key={item.id}>
                 <Image src={item.image} alt={`${item.name}`} className="mx-auto"/>
-                <p className={`${NewAlenia.className} text-primaryWhite text-4xl text-center capitalize `}>{item.name}</p>
+                <p className={`font-new-alenia text-primaryWhite text-4xl text-center capitalize `}>{item.name}</p>
             </div>
         )
     }, [])

@@ -1,9 +1,8 @@
 import SecondaryTitle from "@/components/texts/SecondaryTitle";
-import {Visby} from "@/assets/fonts";
 
 export default function ToS() {
 
-    return <div className={`${Visby.className} text-primaryWhite flex flex-col gap-8 mb-12`}>
+    return <div className={`font-visby text-primaryWhite flex flex-col gap-8 mb-12`}>
         <SecondaryTitle>
             Terms and conditions
         </SecondaryTitle>

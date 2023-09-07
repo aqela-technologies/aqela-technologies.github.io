@@ -92,7 +92,7 @@ export function ContamyNationApp() {
                 <a href={"https://www.instagram.com/_kiora_2.0_/"}>
                     <Button className="cursor-pointer">
                         <InstagramIcon/>
-                        <label className={`${Visby.className} text-primaryWhite cursor-pointer ml-2`}><span
+                        <label className={`font-visby text-primaryWhite cursor-pointer ml-2`}><span
                             className="font-serif">_</span>KIORA<span className="font-serif">_</span>2.0<span
                             className="font-serif">_</span></label>
                     </Button>

@@ -77,7 +77,7 @@ export default function CardCarousel() {
       <div className="relative z-top w-4/5 mx-auto text-white text-center text-sm md:text-3xl font-extrabold">
         <div className="my-16">
           <TextTransition direction="up" springConfig={presets.default}>
-            <span className={`${Visby.className}`}>
+            <span className={`font-visby`}>
                 <span className="uppercase text-4xl font-extrabold text-secondary">
                   {fishes[index % fishes.length].id}
                 </span>

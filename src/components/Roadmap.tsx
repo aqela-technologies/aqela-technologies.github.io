@@ -14,10 +14,10 @@ const TypographySecondaryLightArticle = ({children}: ElementWithChild) => (
 );
 
 const RoadmapHeader = ({children}: ElementWithChild) => (
-    <h1 className={`pb-4 text-3xl ${Visby.className}`}>{children}</h1>
+    <h1 className={`pb-4 text-3xl font-visby`}>{children}</h1>
 );
 const RoadmapSubtitle = ({children}: ElementWithChild) => (
-    <h2 className={`pb-4 font-bold ${Visby.className} text-3xl`}>{children}</h2>
+    <h2 className={`pb-4 font-bold font-visby text-3xl`}>{children}</h2>
 );
 const RoadmapUnit = ({
                          title,
@@ -35,7 +35,7 @@ const RoadmapUnit = ({
             return (
                 <section key={item.subtitle}>
                     <RoadmapSubtitle>{item.subtitle}</RoadmapSubtitle>
-                    <p className={`pb-4 ${Visby.className} text-2xl`}>{item.description}</p>
+                    <p className={`pb-4 font-visby text-2xl`}>{item.description}</p>
                 </section>
             );
         })}

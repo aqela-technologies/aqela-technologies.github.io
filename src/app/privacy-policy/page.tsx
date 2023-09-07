@@ -1,8 +1,7 @@
-import {Visby} from "@/assets/fonts";
-
 export default function Privacy() {
 
-    return <div className={`${Visby.className} whitespace-pre-line text-primaryWhite`} dangerouslySetInnerHTML={{__html:"        PRIVACY POLICY\n" +
+    return <div className={`font-visby whitespace-pre-line text-primaryWhite`} dangerouslySetInnerHTML={{
+        __html: "        PRIVACY POLICY\n" +
             "\n" +
             "        AQELA Technologies SRL is committed to protecting your privacy. This Privacy Policy explains how your personal\n" +
             "        information is collected, used, and disclosed.\n" +
@@ -317,7 +316,8 @@ export default function Privacy() {
             "        request for reproduction rights of any part of the content of the website, as well as for requests for approval\n" +
             "        of reproduction of content you can contact us:\n" +
             "        ● via e-mail: office@aqela.org\n" +
-            "\n"}}>
+            "\n"
+    }}>
 
     </div>
 }

@@ -7,7 +7,11 @@ module.exports = {
     ],
     theme: {
         extend: {
-
+            fontFamily:{
+                exo:["var(--font-exo)"],
+                "new-alenia":["var(--font-new-alenia)"],
+                visby:["var(--font-visby)"],
+            },
             colors: {
                 primaryWhite: "#FFFFFF",
                 primaryPurple: "#512A9E",
