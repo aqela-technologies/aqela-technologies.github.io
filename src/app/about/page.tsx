@@ -6,6 +6,7 @@ import FeatureCellContainer from "@/components/layout/FeatureCellContainer";
 import TeamMembers from "@/components/layout/TeamMembers";
 import MainTitle from "@/components/texts/MainTitle";
 import HorizontalZigZagSplitter from "@/components/HorizontalZigZagSplitter/HorizontalZigZagSplitter";
+import { type Metadata } from "next";
 
 const featureCells = [
     {
@@ -17,6 +18,12 @@ const featureCells = [
         text: "Our mission is twofold. We seek to create products and services that have a positive societal and economic impact on local and EU communities. At the same time, we're dedicated to fostering an environment that educates and encourages the youth to engage with technology."
     },
 ]
+
+export const metadata: Metadata = {
+    title: "About us page",
+    description: "About us page",
+  };
+  
 export default function About() {
 
     return <div className="w-full flex flex-col gap-8 relative my-[5%]">

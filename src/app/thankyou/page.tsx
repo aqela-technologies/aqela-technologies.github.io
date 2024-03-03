@@ -1,14 +1,4 @@
-import SecondaryTitle from "@/components/texts/SecondaryTitle";
-
-import { type Metadata } from "next";
-
-export const metadata: Metadata = {
-    title: "Terms and Conditions",
-    description: "Terms and Conditions",
-};
-
-
-export default function ToS() {
+export default function ThankYou() {
 
     return <div className={`font-visby text-primaryWhite flex flex-col gap-8 mb-12`}>
         <SecondaryTitle>

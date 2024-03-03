@@ -1,3 +1,11 @@
+import { type Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Privacy Policy",
+    description: "Privacy Policy",
+};
+
+
 export default function Privacy() {
 
     return <div className={`font-visby whitespace-pre-line text-primaryWhite`} dangerouslySetInnerHTML={{
